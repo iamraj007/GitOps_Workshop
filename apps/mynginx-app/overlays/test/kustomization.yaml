@@ -16,6 +16,6 @@ patchesStrategicMerge:
 
 images:
 - name: iamraj007/my-nginx
-  newTag: devv5
+  newTag: devv4
 
 namePrefix: workshop-

@@ -9,7 +9,7 @@ spec:
   - port: 80
     name: http
     protocol: TCP
-    targetPort: 5000
+    targetPort: 80
   selector:
     app: my-nginx-gitops
 
