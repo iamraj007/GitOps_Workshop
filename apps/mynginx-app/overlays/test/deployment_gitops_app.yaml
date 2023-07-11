@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitops-frontend
+spec:
+  template:
+    spec:
+      containers:
+        - name: gitops-front-container-app

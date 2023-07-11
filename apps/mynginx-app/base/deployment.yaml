@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitops-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-nginx-gitops
+  template:
+    metadata:
+      labels:
+        app: my-nginx-gitops
+    spec:
+      containers:
+      - image: iamraj007/my-nginx:devv1
+        name: gitops-front-container-app
+        ports:
+        - containerPort: 80
+          protocol: TCP
