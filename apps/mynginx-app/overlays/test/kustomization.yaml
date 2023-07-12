@@ -16,6 +16,6 @@ patchesStrategicMerge:
 
 images:
 - name: iamraj007/my-nginx
-  newTag: frontend
+  newTag: backend
 
 namePrefix: workshop-

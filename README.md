@@ -1,7 +1,8 @@
 # GitOps_Workshop
 
 GitOps workshop with ArgoCD
-This repo contain a ArgoCD Application that will deploy kubernetes apps.
+
+This repo contain a ArgoCD Application that will deploy a simple kubernetes apps with kustomize.
 
 Please find the overall structure of app in datails below for overview:
 
